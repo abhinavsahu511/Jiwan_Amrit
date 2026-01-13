@@ -21,7 +21,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
-              Experience the ancient wisdom of Ayurveda with modern healthcare practices. 
+              Experience the ancient wisdom and of Ayurveda with modern healthcare practices. 
               Our expert practitioners provide personalized treatments for holistic wellness.
             </p>
             <div className="flex space-x-4">
