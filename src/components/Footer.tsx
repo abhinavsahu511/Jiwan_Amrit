@@ -10,18 +10,34 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className=" p-2 rounded-full">
-
-             <img src={Image}/>
-
-              </div>
+             
+            <div
+            style={{
+              padding: "8px",
+              borderRadius: "50%",
+              width: "120px",
+              height: "120px",
+              overflow: "hidden",
+            }}
+          >
+            <img
+              src={Image}
+              alt="logo"
+              style={{
+                width: "100%",
+                height: "100%",
+                borderRadius: "50%",
+                objectFit: "cover",
+              }}
+            />
+          </div>
               <div>
                 <h3 className="text-xl font-bold">JivanAmrit</h3>
                 <p className="text-sm text-blue-800">Ayurvedic Wellness Center</p>
               </div>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
-              Experience the ancient wisdom and of Ayurveda with modern healthcare practices. 
+              Experience the ancient wisdom of Ayurveda with modern healthcare practices. 
               Our expert practitioners provide personalized treatments for holistic wellness.
             </p>
             <div className="flex space-x-4">

@@ -47,12 +47,26 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="N">
-              <img
-                src={Image}
-                alt="Logo"
-              />
-            </div>
+            <div
+  style={{
+    padding: "8px",
+    borderRadius: "50%",
+    width: "120px",
+    height: "120px",
+    overflow: "hidden",
+  }}
+>
+  <img
+    src={Image}
+    alt="logo"
+    style={{
+      width: "100%",
+      height: "100%",
+      borderRadius: "50%",
+      objectFit: "cover",
+    }}
+  />
+</div>
           </Link>
 
           {/* Desktop Navigation */}
