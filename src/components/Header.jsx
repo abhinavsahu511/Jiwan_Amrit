@@ -19,7 +19,7 @@ const Header = () => {
 
   ];
 
-  const isActive = (path: string) => location.pathname === path;
+  const isActive = (path) => location.pathname === path;
 
   return (
     <header className="bg-white">
