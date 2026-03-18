@@ -54,9 +54,9 @@ const Contact = () => {
       icon: Phone,
       title: 'Call Us',
       details: [
-        '+91 9984276035',
-        '+91 11 4567 8900',
-        'Emergency: +91 98765 00000'
+        '+91 9838807623',
+        '+91 9721848820',
+        'Emergency: +91 6394276960'
       ]
     },
     {
@@ -249,7 +249,7 @@ const Contact = () => {
                   <div className="text-center">
                     <MapPin className="w-12 h-12 text-emerald-600 mx-auto mb-2" />
                     <p className="text-gray-600">Interactive Map</p>
-                    <p className="text-sm text-gray-500">123 Wellness Street, New Delhi</p>
+                    <p className="text-sm text-gray-500">Wazirganj, Gonda</p>
                   </div>
                 </div>
               </div>
